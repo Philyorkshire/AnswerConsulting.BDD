@@ -1,11 +1,13 @@
-﻿using System.Linq;
-using System.Xml;
+﻿using System.Xml;
+using System.Linq;
 
 using AnswerConsulting.BDD.Helpers;
 using AnswerConsulting.BDD.Support;
 
 using NUnit.Framework;
+
 using OpenQA.Selenium;
+
 using TechTalk.SpecFlow;
 
 namespace AnswerConsulting.BDD.Features.Steps

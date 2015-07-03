@@ -1,9 +1,10 @@
-﻿using OpenQA.Selenium.PhantomJS;
-
-using TechTalk.SpecFlow;
+﻿using TechTalk.SpecFlow;
 
 namespace AnswerConsulting.BDD.Support
 {
+    using OpenQA.Selenium.Chrome;
+    using OpenQA.Selenium.PhantomJS;
+
     [Binding]
     public sealed class Hooks : Setup
     {
@@ -22,13 +23,13 @@ namespace AnswerConsulting.BDD.Support
         [BeforeScenario]
         public void BeforeScenario()
         {
-            
+
         }
 
         [AfterScenario]
         public void AfterScenario()
         {
-            
+
         }
     }
 }

@@ -3,7 +3,7 @@
 	As a prospective employee or graduate
 	I want to view the careers section
 
-Background: 
+Background:
 	Given I am on the careers section
 	  And the heading 'Careers' is displayed
 

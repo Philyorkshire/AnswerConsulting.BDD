@@ -13,3 +13,4 @@ C:\Users\Phillip\Documents\GitHub\AnswerConsulting.BDD\AnswerConsulting.BDD\bin\
 C:\Users\Phillip\Documents\GitHub\AnswerConsulting.BDD\AnswerConsulting.BDD\obj\Debug\AnswerConsulting.BDD.csprojResolveAssemblyReference.cache
 C:\Users\Phillip\Documents\GitHub\AnswerConsulting.BDD\AnswerConsulting.BDD\obj\Debug\AnswerConsulting.BDD.dll
 C:\Users\Phillip\Documents\GitHub\AnswerConsulting.BDD\AnswerConsulting.BDD\obj\Debug\AnswerConsulting.BDD.pdb
+C:\Users\Phillip\Documents\GitHub\AnswerConsulting.BDD\AnswerConsulting.BDD\bin\Debug\chromedriver.exe
