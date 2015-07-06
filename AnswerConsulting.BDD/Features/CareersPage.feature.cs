@@ -32,8 +32,8 @@ namespace AnswerConsulting.BDD.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "CareersPage", "In order to understand the careers at Answer Consulting\nAs a prospective employee" +
-                    " or graduate\nI want to view the careers section", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "CareersPage", "In order to understand the careers at Answer Consulting\r\nAs a prospective employe" +
+                    "e or graduate\r\nI want to view the careers section", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -67,31 +67,33 @@ namespace AnswerConsulting.BDD.Features
         
         public virtual void FeatureBackground()
         {
-#line 6
 #line 7
- testRunner.Given("I am on the careers section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 8
+ testRunner.Given("I am on the careers section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 9
    testRunner.And("the heading \'Careers\' is displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
         }
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Check the current vacancies")]
+        [NUnit.Framework.CategoryAttribute("firefox")]
         public virtual void CheckTheCurrentVacancies()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check the current vacancies", ((string[])(null)));
-#line 10
-this.ScenarioSetup(scenarioInfo);
-#line 6
-this.FeatureBackground();
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check the current vacancies", new string[] {
+                        "firefox"});
 #line 11
- testRunner.Given("the sub-heading \'Current Vacancies\' is displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
+#line 7
+this.FeatureBackground();
 #line 12
-  testRunner.When("I click on the first vacancy", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+    testRunner.Given("the sub-heading \'Current Vacancies\' is displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 13
-  testRunner.Then("I am taken to the vacancy page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+     testRunner.When("I click on the first vacancy", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 14
-   testRunner.And("\'Strictly no agencies.\' is displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+     testRunner.Then("I am taken to the vacancy page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 15
+      testRunner.And("\'Strictly no agencies.\' is displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -101,16 +103,16 @@ this.FeatureBackground();
         public virtual void CheckTheGraduateSchemeInformation()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check the graduate scheme information", ((string[])(null)));
-#line 16
-this.ScenarioSetup(scenarioInfo);
-#line 6
-this.FeatureBackground();
 #line 17
-    testRunner.Given("the sub-heading \'Academy Graduate Scheme\' is displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
+#line 7
+this.FeatureBackground();
 #line 18
-  testRunner.When("I click on the \'Read more...\' section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+    testRunner.Given("the sub-heading \'Academy Graduate Scheme\' is displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 19
-  testRunner.Then("the information relates to the graduate academy", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+     testRunner.When("I click on the \'Read more...\' section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 20
+     testRunner.Then("the information relates to the graduate academy", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

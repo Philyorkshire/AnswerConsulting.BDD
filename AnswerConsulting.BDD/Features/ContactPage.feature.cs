@@ -32,8 +32,8 @@ namespace AnswerConsulting.BDD.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Contact Page", "In to get the company information\nAs a someone interested in Answer Consulting\nI " +
-                    "want to see contact information and options on the website", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Contact Page", "In to get the company information\r\nAs a someone interested in Answer Consulting\r\n" +
+                    "I want to see contact information and options on the website", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -67,11 +67,11 @@ namespace AnswerConsulting.BDD.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Add two numbers")]
-        [NUnit.Framework.CategoryAttribute("mytag")]
+        [NUnit.Framework.CategoryAttribute("firefox")]
         public virtual void AddTwoNumbers()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers", new string[] {
-                        "mytag"});
+                        "firefox"});
 #line 7
 this.ScenarioSetup(scenarioInfo);
 #line 8
