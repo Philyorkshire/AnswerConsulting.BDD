@@ -5,8 +5,8 @@
 
 @firefox
 Background:
-	Given I am on the careers section
-	  And the heading 'Careers' is displayed
+     Given I am on the careers section
+       And the heading 'Careers' is displayed
 
 Scenario: Check the current vacancies
     Given the sub-heading 'Current Vacancies' is displayed
