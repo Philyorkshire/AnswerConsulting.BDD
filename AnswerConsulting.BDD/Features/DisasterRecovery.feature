@@ -5,16 +5,16 @@
 
 Scenario Outline: Main pages showing correct header
     Given I am on the <page> page
-	 Then I can see the <header text>
+     Then I can see the <header text>
 
 Examples:
-		| page               | header text       |
-		| Stunning Solutions | Stunning solutions|
-		| Great Clients      | Great clients     |
-		| How we do it       | How we do it      |
-		| Who we are         | Who we are        |
-		| Careers            | Careers           |
-		| Contact Us         | Contact           |
+	| page               | header text       |
+	| Stunning Solutions | Stunning solutions|
+	| Great Clients      | Great clients     |
+	| How we do it       | How we do it      |
+	| Who we are         | Who we are        |
+	| Careers            | Careers           |
+	| Contact Us         | Contact           |
 
 Scenario Outline: All required footer information is displayed
 	Given I am on the <page> page
@@ -24,14 +24,14 @@ Scenario Outline: All required footer information is displayed
 	  And the company information 'Registered in England and Wales with company number 03655429' is dispayed
 
 Examples:
-		| page               |
-		| Home               |
-		| Stunning Solutions |
-		| Great Clients      |
-		| How we do it       |
-		| Who we are         |
-		| Careers            |
-		| Contact Us         |
+	| page               |
+	| Home               |
+	| Stunning Solutions |
+	| Great Clients      |
+	| How we do it       |
+	| Who we are         |
+	| Careers            |
+	| Contact Us         |
 
 Scenario: Sitemap is correctly being generated
    Given I navigate to the sitemap

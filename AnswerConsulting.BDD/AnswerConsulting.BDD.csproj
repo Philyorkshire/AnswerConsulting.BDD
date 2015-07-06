@@ -61,6 +61,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CareersPage.feature</DependentUpon>
     </Compile>
+    <Compile Include="Features\ContactPage.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContactPage.feature</DependentUpon>
+    </Compile>
     <Compile Include="Features\DisasterRecovery.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -79,6 +84,10 @@
     <None Include="Features\CareersPage.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>CareersPage.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\ContactPage.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>ContactPage.feature.cs</LastGenOutput>
     </None>
     <None Include="Features\DisasterRecovery.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>

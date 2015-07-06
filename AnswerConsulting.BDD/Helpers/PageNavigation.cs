@@ -3,7 +3,7 @@
     public static class PageNavigation
     {
         private static readonly string BaseUrl = "http://www.answerconsulting.com/";
-        
+
         public static string Url(Page page)
         {
             switch (page)
